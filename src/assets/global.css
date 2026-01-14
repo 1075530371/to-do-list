@@ -1,0 +1,10 @@
+/* src/assets/global.css */
+body {
+  /* 使用 @ 别名路径引用图片 */
+  background-image: url("@/assets/background.png");
+  background-size: cover; /* 图片铺满容器 */
+  background-repeat: no-repeat; /* 不重复平铺 */
+  background-attachment: fixed; /* 背景图固定（可选，滚动时不移动） */
+  margin: 0; /* 清除浏览器默认的 body 外边距 */
+  min-height: 100vh; /* 确保 body 高度至少占满屏幕 */
+}
